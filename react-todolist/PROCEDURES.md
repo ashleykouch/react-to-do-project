@@ -71,3 +71,19 @@
 5. create buttons for the list
 
 ## adding delete functionality to buttons
+
+1. create a delete function in app component
+2. prop drilling: drill delete prop into task list
+3. drill delete prop into onClick function in task item with unique identifier task.id
+4. movement of drilling goes from onClick (in taskItem) -> parent taskList -> parent App -> delete function -> activates function
+
+## updating checked status
+
+1. create a toggle checkbox function in app component
+2. ensure function maps to boolean of task to ensure whether or not box is checked
+3. perform propdrilling (similar to above for delete) to task item
+4. apply to handle change function
+
+## editing tasks
+
+## creating custom hoods
